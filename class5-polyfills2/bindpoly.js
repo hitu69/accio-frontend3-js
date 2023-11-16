@@ -27,6 +27,7 @@ Function.prototype.bind2 = function (contextObj = {}, ...args) {
   return function (...otherArgs) {
     // console.log(otherArgs);
     return func.call(contextObj, ...args, ...otherArgs);
+    //return printName.call(obj, 'Delhi', 'India')
   };
 };
 
