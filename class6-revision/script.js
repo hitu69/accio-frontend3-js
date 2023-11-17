@@ -83,14 +83,13 @@
 // console.log(myObject.iife);
 // console.log(myObject.regularFunction());
 
-var a = 'hi';
-const sum = (a, b) => {
-  console.log(this === window);
-  this.myNumber = 20;
-  return a + b;
-};
+// var a = 'hi';
+// const sum = (a, b) => {
+//   console.log(this === window);
+//   this.myNumber = 20;
+//   return a + b;
+// };
 
-sum(15, 16);
-console.log(this);
-
-console.log(window.myNumber);
+// sum(15, 16);
+// console.log(this);
+// console.log(window.myNumber);
